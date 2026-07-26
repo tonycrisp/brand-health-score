@@ -15,8 +15,6 @@ const previewReport = {
     "CRISPx appears credible and capable, but its positioning asks visitors to interpret too much. The brand needs a narrower promise connecting a specific customer, business outcome, and reason to believe.",
   prescription:
     "Lead with one commercial outcome for one primary buyer. Support it with a concise category point of view, three proof points, and one clear next action.",
-  headline:
-    "Turn customer insight into marketing that earns attention—and profitable growth.",
 };
 
 function normalizeUrl(value) {
@@ -29,7 +27,6 @@ function renderReport(url) {
   document.querySelector("#status").textContent = previewReport.status;
   document.querySelector("#diagnosis").textContent = previewReport.diagnosis;
   document.querySelector("#prescription").textContent = previewReport.prescription;
-  document.querySelector("#headline").textContent = previewReport.headline;
 
   const symptoms = document.querySelector("#symptoms");
   symptoms.replaceChildren(
