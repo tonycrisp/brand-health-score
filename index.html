@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Brand Health Score identifies your biggest positioning opportunity and shows you how to improve it."
+    >
+    <title>Brand Health Score™</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">Brand Health Score<span>™</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#health-check">Marketing Health Check</a>
+        <a href="#sample-report">Sample Report</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+      <a class="header-cta" href="#health-check">Get My Score</a>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Powered by DOSE Brand OS™</p>
+          <h1>Brand Health Score™</h1>
+          <p class="hero-subtitle">
+            Know the Health of Your Brand in Under 5 Minutes.
+          </p>
+          <p class="supporting-copy">
+            Get a professional Marketing Health Check that identifies your
+            biggest positioning opportunity and shows you exactly how to
+            improve it.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#health-check">
+              Get My Brand Health Score™
+            </a>
+            <a class="button secondary" href="#sample-report">
+              See Sample Report
+            </a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Sample health score">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="score-preview">
+            <span class="score-number">68</span>
+            <span class="score-caption">Positioning Health</span>
+            <strong>Needs Attention</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="health-check" class="health-check">
+        <div class="section-heading">
+          <p class="eyebrow">Brand Health Marker #001</p>
+          <h2>Marketing Health Check</h2>
+          <p>
+            Enter your website to uncover the positioning issue creating the
+            most friction for your brand.
+          </p>
+        </div>
+
+        <form id="analysis-form">
+          <label for="brand-url">Company website</label>
+          <div class="input-row">
+            <input
+              id="brand-url"
+              name="brand-url"
+              type="url"
+              value="https://crispx.com"
+              required
+              autocomplete="url"
+              inputmode="url"
+            >
+            <button type="submit">Analyze My Brand</button>
+          </div>
+          <p class="form-note">No account required. Your report is not saved.</p>
+        </form>
+      </section>
+
+      <section id="loading" class="loading" hidden aria-live="polite">
+        <span class="pulse" aria-hidden="true"></span>
+        Measuring positioning health…
+      </section>
+
+      <section id="sample-report" class="report" aria-live="polite">
+        <div class="report-header">
+          <div>
+            <p class="eyebrow">Marketing Health Panel</p>
+            <h2>Positioning Report</h2>
+            <p id="analyzed-url" class="muted">Sample: https://crispx.com/</p>
+          </div>
+          <div class="report-score">
+            <span id="score">68</span>
+            <small>Positioning Score</small>
+          </div>
+        </div>
+
+        <div class="health-status">
+          <span>Health Status</span>
+          <strong id="status">Needs Attention</strong>
+        </div>
+
+        <div class="report-grid">
+          <article>
+            <h3>Top Three Symptoms</h3>
+            <ol id="symptoms">
+              <li>Broad capability language weakens the primary promise.</li>
+              <li>The ideal customer is not immediately obvious.</li>
+              <li>Differentiation is credible but not memorable.</li>
+            </ol>
+          </article>
+          <article>
+            <h3>Diagnosis</h3>
+            <p id="diagnosis">
+              The brand appears capable, but visitors must work too hard to
+              understand who it serves, what outcome it owns, and why it is
+              different.
+            </p>
+          </article>
+          <article>
+            <h3>Prescription</h3>
+            <p id="prescription">
+              Lead with one commercial outcome for one primary buyer. Support
+              it with three proof points and one clear next action.
+            </p>
+          </article>
+          <article class="headline-card">
+            <h3>Rewritten Homepage Headline</h3>
+            <p id="headline">
+              Turn customer insight into marketing that earns attention—and
+              profitable growth.
+            </p>
+          </article>
+        </div>
+
+        <p id="alpha-note" class="alpha-note">
+          Alpha preview: the public interface and complete report flow are
+          operational. Secure live AI generation remains the final integration
+          dependency.
+        </p>
+      </section>
+
+      <section class="founder-note">
+        <p class="eyebrow">A note from the founder</p>
+        <blockquote>
+          <p>
+            After helping companies build brands for more than two decades, I
+            kept seeing the same problem.
+          </p>
+          <p>
+            Founders knew something wasn't working, but they couldn't explain
+            what or why.
+          </p>
+          <p>
+            Brand Health Score™ was built to change that.
+          </p>
+          <p>
+            Instead of guessing, you receive a structured Marketing Health
+            Check that identifies your biggest positioning opportunity and
+            recommends how to improve it.
+          </p>
+          <p>I hope it helps you build a healthier brand.</p>
+        </blockquote>
+        <p class="signature">
+          — Tony Crisp<br>
+          <span>Founder &amp; Chief Strategist, CRISPx</span>
+        </p>
+      </section>
+
+      <section id="privacy" class="privacy">
+        <div>
+          <p class="eyebrow">Privacy</p>
+          <h2>Built for a focused check—not data collection.</h2>
+        </div>
+        <p>
+          This internal alpha has no authentication, database, analytics, or
+          saved reports. Website URLs are used only to generate the current
+          report.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong>Brand Health Score™</strong>
+        <span>Powered by DOSE Brand OS™</span>
+      </div>
+      <div>
+        <span>Created by Tony Crisp</span>
+        <span>Founder &amp; Chief Strategist, CRISPx</span>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
